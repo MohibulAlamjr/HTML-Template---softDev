@@ -1,0 +1,80 @@
+.our-catalog {
+    background: rgba(255, 255, 255, 1);
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+
+}
+
+.title-catalog h3 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title-divider {
+    display: block;
+    max-width: 50px;
+    height: 5px;
+    background: rgba(231, 40, 77, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.title-fashion {
+    padding-bottom: 5px;
+    border-width: 0;
+    border-bottom-width: 0px;
+    border-bottom-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: rgba(223, 231, 247, 1);
+    margin-bottom: 10px;
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: rgba(56, 68, 79, 1);
+    width: 100%;
+    text-overflow: initial;
+}
+a .title-fashion {
+    text-decoration: none;
+    color: rgba(56, 68, 79, 1);
+}
+
+.image-left{
+    padding-left:50%;
+    
+}
+.catalog-even {
+    margin-bottom: 37px;
+    
+}
+.view-more{
+    font-size: 14px;
+color: rgba(69, 82, 94, 1);
+text-decoration: underline;
+}
+.subitem > a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 6px;
+}
+.subitem > a span {
+    font-size: 14px;
+}
+.subitem > a::before {
+    content: '\e409' !important;
+    font-family: icomoon !important;
+}
+.subitem span:hover {
+    color: rgba(243, 109, 55, 1);   
+}
+.catalog-even a{
+    text-decoration: none;
+}
