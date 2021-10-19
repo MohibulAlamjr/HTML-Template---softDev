@@ -42,39 +42,47 @@
     width: 100%;
     text-overflow: initial;
 }
+
 a .title-fashion {
     text-decoration: none;
     color: rgba(56, 68, 79, 1);
 }
 
-.image-left{
-    padding-left:50%;
-    
+.image-left {
+    padding-left: 50%;
+
 }
+
 .catalog-even {
     margin-bottom: 37px;
-    
+
 }
-.view-more{
+
+.view-more {
     font-size: 14px;
-color: rgba(69, 82, 94, 1);
-text-decoration: underline;
+    color: rgba(69, 82, 94, 1);
+    text-decoration: underline;
 }
-.subitem > a{
+
+.subitem>a {
     overflow: hidden;
     text-overflow: ellipsis;
     padding-bottom: 6px;
 }
-.subitem > a span {
+
+.subitem>a span {
     font-size: 14px;
 }
-.subitem > a::before {
+
+.subitem>a::before {
     content: '\e409' !important;
     font-family: icomoon !important;
 }
+
 .subitem span:hover {
-    color: rgba(243, 109, 55, 1);   
+    color: rgba(243, 109, 55, 1);
 }
-.catalog-even a{
+
+.catalog-even a {
     text-decoration: none;
 }
